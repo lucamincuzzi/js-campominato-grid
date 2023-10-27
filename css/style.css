@@ -65,9 +65,26 @@ main {
 }
 
 .grid {
-  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
   height: 80%;
+}
+
+.hidden {
+  display: none;
+}
+
+.cell-100 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
+  width: calc(100% / 10);
+}
+
+.aqua {
+  background-color: aqua;
 }
 
 /* FOOTER */
