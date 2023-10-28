@@ -43,9 +43,16 @@ header img {
   height: 80px;
 }
 
+header .challenge-selection {
+  padding: 2px 100px 2px 0px;
+}
+
+header .challenge-selection, header .play {
+  border-radius: 5px;
+}
+
 header .play {
   padding: 3px 25px;
-  border-radius: 5px;
 }
 
 /* MAIN */
@@ -75,12 +82,24 @@ main {
   display: none;
 }
 
-.cell-100 {
+.cell {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  aspect-ratio: 1;
+}
+
+.nCell-100 {
   width: calc(100% / 10);
+}
+
+.nCell-81 {
+  width: calc(100% / 9);
+}
+
+.nCell-49 {
+  width: calc(100% / 7);
 }
 
 .aqua {
