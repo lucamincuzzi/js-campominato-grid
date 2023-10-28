@@ -47,7 +47,8 @@ header .challenge-selection {
   padding: 2px 100px 2px 0px;
 }
 
-header .challenge-selection, header .play {
+header .challenge-selection,
+header .play {
   border-radius: 5px;
 }
 
@@ -107,6 +108,7 @@ main {
 }
 
 /* FOOTER */
+
 footer {
   height: var(--footer-height);
   display: flex;

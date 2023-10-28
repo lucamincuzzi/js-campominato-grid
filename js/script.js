@@ -8,13 +8,10 @@ playButton.addEventListener("click", function() {
   // cambio di conseguenza il numero parametro della funzione generatrice delle celle a seconda dell'esito
   if (difficultyLevel === "easy") {
     number = 100;
-    generateCells(number);
   } else if (difficultyLevel === "hard") {
     number = 81;
-    generateCells(number);
   } else {
     number = 49;
-    generateCells(number);
   }
   // console log del numero risultante del controllo
   console.log(number);
